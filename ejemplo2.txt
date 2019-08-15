@@ -19,4 +19,23 @@ redireccionamiento:|,>
 --ls_-l_|_less,tail,head
 --ls_-l_>_{lista de archivos.txt}
 --mv_{}_{destino}
+
 --wc_-l:ejemplo:l_-l_|_wc_-l
+--cat_cile.txt_|_wc_-w
+--cat_>_nuevotexto.txt:edita el texto
+--diff_{file1}_{file2}:comparar
+
+--grep_"string":buscar palabra.
+--cat_file.txt_|_grep_"str"
+--greep_-r_-n_"et"_file.txt_|_wc_-lw
+
+linea de ordenes emacs & bash
+--ctrl a:inicio linea
+--ctrl e:fin de linea
+--ctrl k:borra de ahi en adelante
+--ctrl y:pega lo borrado
+--ctrl r:buscar comandos
+
+
+
+

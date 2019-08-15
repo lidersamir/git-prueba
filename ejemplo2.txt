@@ -1,0 +1,22 @@
+consola-terminal
+--man_{}:manual de_{}
+--permisos: r, w, x; d:solo para folder
+--ejecutar: dar ordenes al pc: ./
+--lista organizada de menor a mayor tamaño: ls_-l_-S_-r
+--ls_-ltrh:-r:reverse;-t:tiempo de reaccion;-h:human readable
+--{_}:archivo o carpeta oculta: ls_-a:
+
+
+lectura o visualizacion de archivos
+--more:por pantallazos
+--less:navegar continuamente
+--head_{}_-n_3
+--tail_{}_-f: visualizaion en vivo
+--tar: comprimir archivo
+--cat:todo el contenido en pantalla
+
+redireccionamiento:|,>
+--ls_-l_|_less,tail,head
+--ls_-l_>_{lista de archivos.txt}
+--mv_{}_{destino}
+--wc_-l:ejemplo:l_-l_|_wc_-l
